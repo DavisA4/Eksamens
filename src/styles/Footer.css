@@ -1,0 +1,65 @@
+footer {
+    width: 100%;
+    background: #ffbf00;
+    z-index: 1;
+    padding: 0.2rem 3%;
+    list-style: none;
+    text-align: left;
+    margin-bottom: 0px;
+  }
+  
+  footer .list {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+  }
+  
+  footer .list li {
+    margin: 2rem;
+    list-style: none;
+  }
+  
+  footer .list h2 {
+    color: #fff;
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-left: 3rem;
+    list-style: none;
+  }
+  
+  footer .content {
+    color: #fff;
+  
+    float: left;
+    font-size: 1.2rem;
+    margin: 1rem;
+    list-style: none;
+    flex-basis: 33.33333%;
+  }
+  
+  footer .content a {
+    color: #fff;
+    font-size: 1.2rem;
+    margin: 1rem;
+    list-style: none;
+  }
+  
+  footer .content li:hover {
+    color: #000;
+  }
+  
+  footer .content a:hover {
+    color: #000;
+  }
+  
+  footer p {
+    text-align: center;
+  }
+  
+  .feetBee {
+    color: #fff;
+    font-size: 1rem;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 20px;
+  }

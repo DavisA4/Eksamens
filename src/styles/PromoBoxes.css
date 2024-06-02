@@ -1,0 +1,15 @@
+.promo-section {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 100px;
+  }
+  
+  .box {
+    width: 30vw;
+    font-size: 1em;
+    line-height: 1.5em;
+    padding: 0 4vw 4vw;
+    border-style: solid;
+    border-image: linear-gradient(to bottom, #181818, #ffbf00, #181818) 1 100%;
+    color: #fff; /* Assuming text color needs to be white */
+  }

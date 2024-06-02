@@ -1,0 +1,531 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wdth,wght@0,62.5..100,100..900;1,62.5..100,100..900&family=Quicksand:wght@300..700&display=swap');
+
+.full-width-header {
+  background-color: #ffffff; /* White background */
+  padding: 20px; /* Add padding */
+  display: flex; /* Use flexbox layout */
+  justify-content: space-around; /* Space around items */
+  align-items: center; /* Center align items vertically */
+  margin: 0 auto 20px auto; /* Adjust margin */
+}
+
+.header-link {
+  color: #000000; /* Set text color */
+  text-decoration: none; /* Remove underline */
+  font-size: 16px; /* Set font size */
+  font-weight: 300; /* Set font weight */
+  padding: 10px;
+  border: none;
+  background-color: white;
+}
+
+.header-link:hover {
+  background-color: #add8e6; /* Light blue background on hover */
+  color: #157ed4; /* Blue text on hover */
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+body {
+  font-size: 13px;
+  font-family: "Noto Sans", sans-serif;
+  /* background: #2c3e50; */
+  font-weight: 200;
+}
+h1 {
+  text-align: center;
+  margin: 40px 0 40px;
+  text-align: center;
+  font-size: 30px;
+  color: #ecf0f1;
+  text-shadow: 2px 2px 4px #000000;
+  font-family: "Noto Sans", sans-serif;
+  font-weight: 200;
+}
+:where(.css-dev-only-do-not-override-mxhywb).ant-carousel .slick-dots {
+  position: relative;
+}
+
+p {
+  position: relative;
+  bottom: 20px;
+  width: 100%;
+  text-align: center;
+  color: #ecf0f1;
+  font-family: Lora;
+  font-weight: 200;
+  font-size: 19px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Noto Sans", sans-serif;
+  font-weight: 200;
+}
+body {
+  background-color: #181818;
+  color: #d8d8d8;
+}
+.container {
+  padding: 5vw;
+  margin-top: 40px;
+}
+
+.container h1 {
+  font-size: 2.5em;
+  /* 	margin-bottom: 2em; */
+  text-transform: uppercase;
+  letter-spacing: 10px;
+  text-align: center;
+  font-family: "Noto Sans", sans-serif;
+  font-weight: 200;
+}
+.container h1::before {
+  content: "─";
+  margin-right: 0.6em;
+  color: #686868;
+}
+.container h1::after {
+  content: "─";
+  margin-left: 0.6em;
+  color: #686868;
+}
+.boxes {
+  margin-top: 100px;
+  display: flex;
+  justify-content: space-evenly;
+}
+.boxes:last-child {
+  margin-top: 120px;
+}
+.box {
+  width: 30vw;
+  font-size: 1em;
+  line-height: 1.5em;
+  font-weight: 200;
+  padding: 0 4vw 4vw;
+  border-right: 2px;
+  border-left: 0;
+  border-style: solid;
+  /* 	border-image: linear-gradient(to bottom, #ccc, #555 66%, #181818) 1 100%; */
+  border-image: linear-gradient(to bottom, #181818, #eee, #181818) 1 100%;
+}
+.box:last-child {
+  border-right: 0;
+}
+.box .icon img {
+  width: 20px;
+}
+
+.box h2 {
+  font-size: 1.3em;
+  margin-bottom: 1em;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  font-weight: 200;
+  line-height: 1em;
+  color: #ffbf00;
+}
+
+.luznis {
+  padding-top: 35px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.hr3 {
+  margin-top: 50px;
+  border: 0;
+  height: 2px;
+  background-image: linear-gradient(to right, transparent, #ccc, transparent);
+}
+
+.container3 h1 {
+  font-size: 2.5em;
+  text-transform: uppercase;
+  letter-spacing: 10px;
+  text-align: center;
+  font-family: Lora, serif;
+  font-weight: 200;
+  margin-left: 50px;
+}
+
+:where(.css-dev-only-do-not-override-ia76fs).ant-form-item
+  .ant-form-item-label
+  > label {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  max-width: 100%;
+  height: 32px;
+  color: #fff;
+  font-size: 16px;
+}
+
+:where(.css-dev-only-do-not-override-ia76fs).ant-popconfirm
+  .ant-popconfirm-message {
+  position: relative;
+  margin-bottom: 8px;
+  color: #fff;
+  font-size: 16px;
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: start;
+}
+
+:where(.css-dev-only-do-not-override-ia76fs).ant-modal .ant-modal-title {
+  margin: 0;
+  color: #fff;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 1.4444444444444444;
+  word-wrap: break-word;
+}
+
+.container3 h1::before {
+  content: "─";
+  margin-right: 0.1em;
+  color: #ffbf00;
+}
+.container3 h1::after {
+  content: "─";
+  margin-left: 0.1em;
+  color: #ffbf00;
+}
+
+.box9 {
+  width: auto;
+  font-size: 1.3em;
+  line-height: 1.5em;
+  font-weight: 200;
+  padding: 0 4vw 4vw;
+  border-right: 3px;
+  border-left: 3px;
+  border-style: solid;
+  margin-left: auto;
+  margin-right: auto;
+  /* 	border-image: linear-gradient(to bottom, #ccc, #555 66%, #181818) 1 100%; */
+  border-image: linear-gradient(to bottom, #181818, #eee, #181818) 1 100%;
+}
+
+.box9 h2 {
+  font-size: 1.3em;
+  margin-bottom: 1em;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  font-weight: 200;
+  line-height: 1em;
+  color: #ffbf00;
+  width: auto;
+  text-align: center;
+}
+
+.box9 h2::before {
+  content: "─";
+  margin-right: 0.1em;
+  color: #686868;
+}
+.box9 h2::after {
+  content: "─";
+  margin-left: 0.1em;
+  color: #686868;
+}
+
+.hr4 {
+  margin-top: 15px;
+  margin-bottom: 35px;
+  border: 0;
+  height: 1px;
+  background-image: linear-gradient(to right, transparent, #ccc, transparent);
+}
+
+.box11 {
+  width: auto;
+  font-size: 1.3em;
+  line-height: 1.5em;
+  font-weight: 200;
+  padding: 0 4vw 4vw;
+  border-right: 3px;
+  border-left: 3px;
+  border-style: solid;
+  margin-left: 50px;
+  margin-right: 50px;
+  /* 	border-image: linear-gradient(to bottom, #ccc, #555 66%, #181818) 1 100%; */
+  border-image: linear-gradient(to bottom, #181818, #ffbf00, #181818) 1 100%;
+}
+
+footer {
+  width: 100%;
+  background: #ffbf00;
+  z-index: 1;
+  padding: 0.2rem 3%;
+  list-style: none;
+  text-align: left;
+  margin-bottom: 0px;
+}
+
+footer .list {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+}
+
+footer .list li {
+  margin: 2rem;
+  list-style: none;
+}
+
+footer .list h2 {
+  color: #fff;
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-left: 3rem;
+  list-style: none;
+}
+
+footer .content {
+  color: #fff;
+
+  float: left;
+  font-size: 1.2rem;
+  margin: 1rem;
+  list-style: none;
+  flex-basis: 33.33333%;
+}
+
+footer .content a {
+  color: #fff;
+  font-size: 1.2rem;
+  margin: 1rem;
+  list-style: none;
+}
+
+footer .content li:hover {
+  color: #000;
+}
+
+footer .content a:hover {
+  color: #000;
+}
+
+footer p {
+  text-align: center;
+}
+
+.feetBee {
+  color: #fff;
+  font-size: 1rem;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.car-display {
+  padding: 20px;
+}
+
+.car-display h1 {
+  text-align: center;
+}
+
+.car-display-container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.car-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* Display 3 cars per row */
+  grid-gap: 20px;
+}
+
+.car-image {
+  width: 100%;
+  height: 300px; /* Fixed height to maintain aspect ratio */
+  object-fit: cover; /* Cover the container while maintaining aspect ratio */
+}
+
+@media (max-width: 1024px) {
+  .car-grid {
+    grid-template-columns: repeat(
+      2,
+      1fr
+    ); /* Display 2 cars per row for screens <= 1024px */
+  }
+}
+
+/* Media query for even smaller screens */
+@media (max-width: 768px) {
+  .car-grid {
+    grid-template-columns: 1fr; /* Display 1 car per row for screens <= 768px */
+  }
+}
+
+.car-card {
+  width: 300px;
+  margin: 20px;
+}
+
+.car-image {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+}
+
+.car-title {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.car-description {
+  margin-top: 8px;
+  margin-bottom: 16px;
+}
+
+.car-buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 16px;
+}
+
+.map-button {
+  margin-left: 10px;
+}
+
+:where(.css-dev-only-do-not-override-ia76fs).ant-pagination
+  .ant-pagination-item-active
+  a {
+  color: #000;
+}
+
+/* svg {
+  color: white;
+} */
+
+.icons {
+  font-size: 20px;
+  cursor: pointer;
+  padding: 5px;
+}
+
+.icons:hover {
+  background: lightgray;
+  border-radius: 10%;
+}
+
+:where(.css-dev-only-do-not-override-ia76fs).ant-pagination
+  .ant-pagination-item
+  a {
+  display: inline;
+  padding: 0 6px;
+  color: rgba(0, 0, 0, 0.88);
+  transition: none;
+}
+
+.nomaImg {
+  object-fit: contain;
+}
+
+.NomaCol {
+  margin: 1rem;
+  border-radius: 1rem;
+  overflow: hidden;
+  transition: 1s;
+}
+.NomaCol:hover {
+  transform: translateY(-1rem);
+}
+
+.infoList {
+  list-style: none;
+  font-size: 1.1rem;
+  margin-top: 0.5rem;
+  background-color: #ffbf00;
+}
+
+.timeAndCheck {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 1rem 7rem;
+}
+
+.checkboxList {
+  list-style: none;
+}
+.ReserveBtn {
+  margin-top: 1rem;
+  margin-left: 10px;
+  width: 11rem;
+  height: 4rem;
+  font-size: 1.8rem;
+  color: #fff;
+}
+
+.noms h2 {
+  background-color: #fff;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.noms img {
+  background-color: #ffbf00;
+}
+
+.nomasp {
+  position: relative;
+  margin-top: 10px;
+  text-align: left;
+  color: #ecf0f1;
+  font-family: Lora;
+  font-weight: 200;
+  font-size: 21px;
+}
+.noms {
+  border-block-start: solid #000;
+}
+
+.nomash {
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.cetr {
+  margin-left: 40px;
+}
+
+.rediget {
+  color: #fff;
+}
+
+.nomasP p {
+  bottom: 20px;
+  width: 100%;
+  text-align: left;
+  color: #2b2b2b;
+  font-family: Lora;
+  font-weight: 200;
+  font-size: 20px;
+  padding-top: 15px;
+}
+
+.nomas h3 {
+  display: block;
+  font-size: 1.17em;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+}
+
+.main-title {
+  text-align: center;
+  font-size: 30px;
+  color: #fff;
+  text-shadow: 2px 2px 4px #000000;
+}
