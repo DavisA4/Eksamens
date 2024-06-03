@@ -27,9 +27,9 @@ Veiciet šīs darbības, lai palaistu projektu:
  - Izvēlieties "New Terminal".
  ## Instalējiet Atkarības:
  - Tad projektā izveidojiet .env failu un iekša rakstiet
-   uripass=j9JnJ6oJkpFSaY1l
+   "uripass=j9JnJ6oJkpFSaY1l
    portserver=8000
-   token=gneirbfaudsfghweigehrgkuefhsgpierguhefhg
+   token=gneirbfaudsfghweigehrgkuefhsgpierguhefhg"
   (Tas domāts ir lai parasti lietotāji nenozagtu admin jeb menedžera datus)
    
  - Terminālī ierakstiet npm install, lai instalētu nepieciešamās paketes.
