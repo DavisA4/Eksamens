@@ -30,7 +30,7 @@ Veiciet šīs darbības, lai palaistu projektu:
    uripass=j9JnJ6oJkpFSaY1l
    portserver=8000
    token=gneirbfaudsfghweigehrgkuefhsgpierguhefhg
- - (Tas domāts ir lai parasti lietotāji nenozagtu admin jeb menedžera datus)
+  (Tas domāts ir lai parasti lietotāji nenozagtu admin jeb menedžera datus)
    
  - Terminālī ierakstiet npm install, lai instalētu nepieciešamās paketes.
  - Pēc instalēšanas palaidiet projektu ar npm start.
