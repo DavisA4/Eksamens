@@ -211,4 +211,46 @@ router.delete("/:userId", async (req, res) => {
   }
 });
 
+router.post("/login", async (req, res) => {
+  try {
+    const { lietotajvards, parole } = req.body;
+
+    // Check if the user exists
+    const lietotajs = await Lietotajs.findOne({ lietotajvards });
+    if (!lietotajs) {
+      return res
+        .status(401)
+        .json({ message: "Nepareizs lietotājvārds vai parole" });
+    }
+
+    if (lietotajs.statuss !== "Verificēts") {
+      return res
+        .status(401)
+        .json({ message: "Jūsu konts nav verificēts. Lūdzu, sazinieties ar administratoru." });
+    }
+
+    // Check if the password is correct
+    const parolesParbaude = await bcrypt.compare(parole, lietotajs.parole);
+    if (!parolesParbaude) {
+      return res
+        .status(401)
+        .json({ message: "Nepareizs lietotājvārds vai parole" });
+    }
+
+    const token = jwt.sign(
+      {
+        userId: lietotajs._id,
+        username: lietotajs.lietotajvards,
+        role: lietotajs.loma,
+      },
+      process.env.token
+    );
+
+    res.status(200).json({ message: "Veiksmīgas pieteikšanas", token });
+  } catch (error) {
+    console.error(error);
+    res.status(500).json({ message: "Servera kļūda" });
+  }
+});
+
 module.exports = router; // Eksportē maršrutētāju
