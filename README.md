@@ -50,6 +50,7 @@ Veiciet šīs darbības, lai palaistu projektu:
 - [x] Admin sadaļai izstrādāta ielogošanās funkcija.
 - [x] Admin sadaļā izveidotas vairākas tabulas(Lietotāju, rezervāciju, žurnālfailu)
 - [x] Projekts izstrādāts 75% apmērā.
+- [x] Projekts izstrādāts 90% apmērā.
 - [ ] Projekts izstrādāts 100% apmērā.
 
 # Dokuments
@@ -64,3 +65,4 @@ Veiciet šīs darbības, lai palaistu projektu:
 - [x] Izveidota septītā sadaļa.
 - [x] Izveidota astotā sadaļa.
 - [x] Izveidota devītā sadaļa.
+- [x] Pievienots pielikums. 
