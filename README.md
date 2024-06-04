@@ -19,7 +19,7 @@ Mūsu platforma ļauj lietotājiem:
 # Darba Sākšana
 Veiciet šīs darbības, lai palaistu projektu:
 
- ##  Atveriet BusLink Projektu:
+ ##  Atveriet CarRent Projektu:
  - Atveriet projektu Visual Studio Code.
  ## Atveriet Termināli:
  - Atveriet Termināļa sadaļu Visual Studio Code augšējā header joslā.
