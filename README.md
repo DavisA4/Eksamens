@@ -1,6 +1,7 @@
  # CarRent (AutoRezervācijasSistēma)
 (Sākuma lapa)
-![Tveršana](https://github.com/DavisA4/AutoRezervacijasSistemaCarRent-/assets/156308695/6a8d89f1-cbc0-476a-ab10-091ba33f1eb3)
+![image](https://github.com/DavisA4/Eksamens/assets/156308695/f7f3d7ff-9733-46bd-84b0-5e50d324d802)
+
 
 Šajā README failā tiks aprakstīta šī projekta darbības gaita un tās funkcionalitāte.
 
